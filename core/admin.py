@@ -12,3 +12,4 @@ admin.site.register(Veiculo)
 admin.site.register(Pessoa)
 admin.site.register(Parametros)
 admin.site.register(MovRotativo, MovRotativoAdmin)
+
