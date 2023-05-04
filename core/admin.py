@@ -1,7 +1,14 @@
 from django.contrib import admin
 
-from .models import Marca, Veiculo, Pessoa, Parametros, MovRotativo, \
-                    Mensalista, MovMensalista
+from .models import (
+    Marca, 
+    Veiculo, 
+    Pessoa, 
+    Parametros, 
+    MovRotativo,
+    Mensalista, 
+    MovMensalista
+)
 
 
 class MovRotativoAdmin(admin.ModelAdmin):
@@ -20,4 +27,3 @@ admin.site.register(Parametros)
 admin.site.register(Mensalista)
 admin.site.register(MovRotativo, MovRotativoAdmin)
 admin.site.register(MovMensalista, MovMensalistaAdmin)
-
